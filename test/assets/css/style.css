@@ -1,0 +1,308 @@
+/*
+1.Container
+2.Intro
+3.AboutUs
+4.Services
+5.WhatWeDo
+6.ourWorks
+7.contacttUS
+*/
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 200px;
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: center;
+
+}
+
+*,
+*:before,
+*:aftet {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 818px;
+    margin: 0 auto;
+}
+
+/*Intro*/
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: url("../img/intro.jpg") center no-repeat;
+    background-size: cover;
+    background-size: cover;
+
+
+}
+
+.intro__inner{
+    width: 100%;
+    max-width: 590px;
+    margin: 0 auto;
+}
+
+.intro__title{
+    font-size: 54px;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: 5px;
+
+}
+
+.intro__suptitle{
+    font-size: 15px;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 22px;
+    margin-top: 53px;
+}
+
+/*AboutUs*/
+
+.AboutUs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 631px;
+    background: url("../img/about%20us.jpg") center no-repeat;
+    background-size: auto;
+
+}
+
+.section_titleAboutUS{
+    text-align: center;
+    font-weight: 700;
+    font-size:34px;
+    letter-spacing: 3px;
+    margin-top: -40px;
+}
+
+.aboutUS__text{
+    text-align: center;
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 70px;
+
+}
+
+/*Services*/
+
+.Services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 488px;
+    background: url("../img/services.png") center no-repeat ,
+                url("../img/services1.jpg") center no-repeat;
+
+
+    background-size: auto,cover;
+}
+
+.title__services{
+    text-align: center;
+    font-weight: 700;
+    font-size:34px;
+    letter-spacing: 3px;
+    margin-top: -65px;
+    color: #fff
+
+}
+
+.services__text {
+    text-align: center;
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    margin-top: 61px;
+
+}
+
+/*WhatWeDo*/
+
+.WhatWeDo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 1414px;
+    background: url("../img/what%20we%20do.jpg") center no-repeat;
+    background-size: auto;
+}
+
+.title__WhatWeDo
+{
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-size:34px;
+    margin-top: -100px;
+}
+
+
+.subtitle_Design{
+    font-size:20px;
+    margin-top: 221px;
+    letter-spacing: 1.5px;
+
+}
+
+.Design__text{
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    margin-bottom: 217px;
+
+}
+
+.subtitle_Development{
+    font-size:20px;
+    letter-spacing: 1.5px;
+
+}
+
+.Development__text{
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-top: 35px;
+    margin-bottom: 217px;
+
+
+}
+
+.subtitle_PM{
+    font-size:20px;
+    letter-spacing: 1.5px;
+}
+
+.PM__text{
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-top: 43px;
+}
+
+/*ourWorks*/
+
+.item{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px
+
+}
+
+.ourWorks{
+    width: 100%;
+
+}
+.ourWorks__item{
+    position: relative;
+
+}
+
+
+
+.works__photo{
+    display: block;
+    width: auto;
+    margin:auto;
+
+}
+
+.ourWorks__text{
+    font-size: 34px;
+    color: #fff;
+    letter-spacing: 4px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 10%;
+    left: 20%;
+
+}
+
+/*contacttUS*/
+
+.section_contactUS{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url(../img/contact%20us.png) center no-repeat;
+    background-size: auto;
+    width: 100%;
+    height: 597px;
+
+}
+
+.contactUS{
+
+}
+
+.title_contactUS{
+    text-align: center;
+    font-weight: 700;
+    font-size:30px;
+    letter-spacing: 3px;
+    color: black;
+    margin-top: 20px;
+}
+
+.subtitle_contactUS{
+    margin-top: 50px;
+
+
+}
+
+.button_contactUS{
+    display: inline-block;
+    background-color:#3c3c3c;
+    border: none;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    padding: 10px 140px;
+    margin: 45px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button_contactUS:hover{
+    background-color: #7e7878;
+}
+
+.copyright{
+    margin-top: 50px;
+    display: block;
+}
+
+
+@media (max-width:1943px){
+    .works__photo{
+
+    }
+}
